@@ -1,0 +1,34 @@
+<h1>Jobs Worked</h1>
+
+<p> Your wonderful jobs: </p>
+
+<ul>
+
+  <% @input.each() do |job| %>
+  <li>Between <%= job.job_length() %> you worked at <%= job.employer_name() %> as a/an <%= job.job_name() %></li>
+  <% end %>
+</ul>
+
+<p>Add a new job:</p>
+
+<form action="input" method="post">
+  <label for="employer">Employer Name</label>
+  <input id="employer" name="employer" type="text">
+  <br>
+
+  <label for="job_title">Job Title</label>
+  <input id="job_title" name="job_title" type="text">
+  <br>
+
+  <label for="start_date">Start Date</label>
+  <input id="start_date" name="start_date" type="text">
+  <br>
+
+  <label for="end_date">End Date</label>
+  <input id="end_date" name="end_date" type="text">
+  <br>
+
+
+  <button type="submit">Add it!!</button>
+
+</form>

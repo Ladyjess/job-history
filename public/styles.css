@@ -1,0 +1,11 @@
+body {
+  background-color: gray;
+  /*background-image: url("image.jpg");
+  /*background-repeat: no-repeat;*/
+  /*background-position: center center;*/
+
+}
+
+.spacing {
+  padding: 15px;
+}
