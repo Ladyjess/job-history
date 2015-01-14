@@ -1,4 +1,6 @@
-<h1>Jobs Worked</h1>
+<div class="jumbotron">
+
+  <h1>Jobs Worked</h1>
 
 <p> Your wonderful jobs: </p>
 
@@ -8,8 +10,11 @@
   <li>Between <%= job.job_length() %> you worked at <%= job.employer_name() %> as a/an <%= job.job_name() %></li>
   <% end %>
 </ul>
+</div>
 
-<p>Add a new job:</p>
+
+<div class="input_data">
+<p class="bg-primary">Add a new job:</p>
 
 <form action="input" method="post">
   <label for="employer">Employer Name</label>
@@ -29,6 +34,7 @@
   <br>
 
 
-  <button type="submit">Add it!!</button>
+  <button type="submit" class="btn btn-success btn-lg">Add it!!</button>
 
 </form>
+</div>

@@ -16,5 +16,5 @@ post("/input") do
   end_date = params.fetch("end_date")
   job = Employment.new(employer, job_title, start_date, end_date)
   job.save()
-  erb(:success)
+  redirect('/')
 end

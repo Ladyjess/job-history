@@ -1,5 +1,5 @@
 body {
-  background-color: gray;
+  background-color: #F5B341;
   /*background-image: url("image.jpg");
   /*background-repeat: no-repeat;*/
   /*background-position: center center;*/
@@ -8,4 +8,37 @@ body {
 
 .spacing {
   padding: 15px;
+}
+
+
+.jumbotron {
+  margin: auto;
+  width: 500px;
+  text-align: center;
+  background: #337AB7;
+}
+
+.jumbotron h1, p, ul {
+  color: white;
+}
+
+
+.input_data {
+  padding:20px;
+  margin: 20px auto auto auto;
+  width: 500px;
+  text-align: center;
+  background: #337667;
+}
+
+form {
+  width: 360px;
+  text-align: right;
+  margin: auto;
+  font-size: 18px;
+}
+
+.btn {
+  margin-top: 10px;
+  margin-right: 4px;
 }
